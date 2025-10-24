@@ -12,7 +12,7 @@ A simple **8-bit processor core** implemented in Verilog, designed as a classic 
 -   8x8 Register File (8 registers, 8-bits wide)
 -   Dual-port read (asynchronous), single-port write (synchronous) RegFile
 -   3-state FSM controller (`IDLE`, `EXECUTE`, `WRITEBACK`)
--   Comprehensive testbench (`testbench.sv`) for full instruction coverage.
+-   Comprehensive testbench (`alu_tb.sv`) for full instruction coverage.
 
 ---
 
