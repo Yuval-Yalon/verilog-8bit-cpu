@@ -1,4 +1,4 @@
-module testbench;
+module alu_tb;
   reg clk;
   reg rst_n;
   reg start_cmd;
@@ -38,7 +38,7 @@ module testbench;
 
   initial begin
     $dumpfile("dump.vcd");
-    $dumpvars(0, testbench);
+    $dumpvars(0, alu_tb);
 
     // Testing reset
     rst_n = 1'b0;
@@ -189,3 +189,4 @@ module testbench;
   end
 
 endmodule
+
